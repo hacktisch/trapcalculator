@@ -6,6 +6,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
+		"predeploy": "vite build",
+		"deploy": "touch build/.nojekyll && npm run publish",
 		"publish": "gh-pages -d build"
 	},
 	"devDependencies": {
