@@ -2,7 +2,7 @@
 
 Trapmaten berekenen
 
-Svelte project;\
+Svelte project;
 
 ```
 npm i
